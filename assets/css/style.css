@@ -289,7 +289,7 @@ ul {
     left: 0;
     z-index: -1;
     filter: grayscale(100%);
-    background-image: url(./img/34454003_s.jpg);
+    background-image: url(../img/34454003_s.jpg);
     background-repeat: no-repeat;
 }
 
@@ -559,11 +559,11 @@ footer {
     }
 
     .twoContents-txtWrapper.firtsContent {
-        background-image: url(./img/34725358_s.jpg);
+        background-image: url(../img/34725358_s.jpg);
     }
 
     .twoContents-txtWrapper.secondContent {
-        background-image: url(./img/34825974_s.jpg);
+        background-image: url(../img/34825974_s.jpg);
     }
 
     .twoContents-txtWrapper::before {
