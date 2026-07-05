@@ -471,7 +471,7 @@ footer {
         position: absolute;
         width: 20px;
         height: 5px;
-        right: 46px;
+        right: 30px;
         background: #333;
     }
 
@@ -479,12 +479,32 @@ footer {
         top: 5px;
     }
 
+    .hamburger.open span:nth-last-of-type(1) {
+        top: 9px;
+        right: 30px;
+        transform: rotate(45deg);
+    }
+
     .hamburger span:nth-last-of-type(2) {
         top: 10px;
     }
 
+    .hamburger.open span:nth-last-of-type(2) {
+        display: none;
+    }
+
     .hamburger span:nth-last-of-type(3) {
         top: 15px;
+    }
+
+    .hamburger.open span:nth-last-of-type(3) {
+        top: 9px;
+        right: 30px;
+        transform: rotate(-45deg);
+    }
+
+    .hamburger.open span {
+        background: #fff;
     }
 
     header:has(.hamburger.open) .header-nav {
@@ -519,7 +539,11 @@ footer {
     }
 
     .lan ul {
-        margin-right: 55px;
+        margin-right: 40px;
+    }
+
+    header:has(.mainmenu-li.open) .header-nav {
+        height: 364px;
     }
 
     .upperContents-wrapper {
