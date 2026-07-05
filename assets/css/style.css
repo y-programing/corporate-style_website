@@ -453,6 +453,7 @@ footer {
 
     .header-nav {
         display: none;
+        width: 60%;
     }
 
     .header-logo {
@@ -470,7 +471,7 @@ footer {
         position: absolute;
         width: 20px;
         height: 5px;
-        right: 10px;
+        right: 46px;
         background: #333;
     }
 
@@ -490,6 +491,7 @@ footer {
         display: block;
         color: #fff;
         background: #333;
+        height: 204px;
     }
 
     header:has(.hamburger.open) .header-nav .lan ul li a {
@@ -499,10 +501,25 @@ footer {
 
     header:has(.hamburger.open) .header-nav .mainmenu-li button {
         color: #fff;
+        background: #333;
+    }
+
+    .mainmenu {
+        display: block;
+    }
+
+    .mainmenu-li {
+        border-bottom: 1px solid #fff;
+        padding: 10px;
+    }
+
+    .submenu li {
+        padding: 5px 10px;
+        background: #333;
     }
 
     .lan ul {
-        margin-right: 30px;
+        margin-right: 55px;
     }
 
     .upperContents-wrapper {
@@ -520,6 +537,7 @@ footer {
 
     .flex-section {
         padding: 20px;
+        margin-top: 30px;
     }
 
     footer {
@@ -528,6 +546,7 @@ footer {
 
     .flexWrap-section {
         padding: 20px;
+        margin-top: 30px;
     }
 
     .contentImg-span span {
@@ -590,6 +609,14 @@ footer {
 
 /* ここからスマホ対応 */
 @media screen and (max-width: 375px) {
+    .header-logo {
+        width: 95%;
+    }
+
+    .header-logo_wrapper {
+        padding: 10px 20px;
+    }
+
     .upperContents-wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
