@@ -512,7 +512,8 @@ footer {
         display: block;
         color: #fff;
         background: #333;
-        height: 204px;
+        height: 270px;
+        overflow-y: scroll;
     }
 
     header:has(.hamburger.open) .header-nav .lan ul li a {
@@ -541,6 +542,7 @@ footer {
 
     .lan ul {
         margin-right: 40px;
+        height: 90px;
     }
 
     header:has(.mainmenu-li.open) .header-nav {
@@ -635,11 +637,32 @@ footer {
 /* ここからスマホ対応 */
 @media screen and (max-width: 375px) {
     .header-logo {
-        width: 95%;
+        width: 35%;
     }
 
     .header-logo_wrapper {
         padding: 10px 20px;
+    }
+
+    .header-nav {
+        width: 30%;
+    }
+
+    .hamburger span {
+        right: 380px;
+    }
+
+    header:has(.hamburger.open) .header-nav {
+        position: absolute;
+        right: 383px;
+    }
+
+    .hamburger.open span:nth-last-of-type(1) {
+        right: 394px;
+    }
+
+    .hamburger.open span:nth-last-of-type(3) {
+        right: 394px;
     }
 
     .upperContents-wrapper {
