@@ -448,6 +448,7 @@ footer {
 
     header {
         background: gray;
+        width: 768px;
         height: 90px;
     }
 
@@ -622,11 +623,11 @@ footer {
 
     .contentImg-firstSpan span,
     .contentImg-secondSpan span {
-        top: 259%;
+        top: 273%;
     }
 
     .contentImg-thirdSpan span {
-        top: 295%;
+        top: 311%;
     }
 }
 
@@ -662,14 +663,14 @@ footer {
     }
 
     .contentImg-firstSpan span {
-        top: 352%;
+        top: 363%;
     }
 
     .contentImg-secondSpan span {
-        top: 388%;
+        top: 400%;
     }
 
     .contentImg-thirdSpan span {
-        top: 425%;
+        top: 437%;
     }
 }
